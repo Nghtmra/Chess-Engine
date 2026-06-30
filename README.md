@@ -1,56 +1,60 @@
-📌 Overview
+# 📌 Overview
+
 The Bonnyrigg Chess Engine is a complete chess application featuring:
 
-Drag‑and‑drop piece movement
-
-Full legal move generation
-
-Special rule support (castling, en passant, promotion)
-
-Move highlighting & last‑move tracing
-
-Multiple board themes
-
-Sound effects
-
-Clean object‑oriented architecture
+- Drag‑and‑drop piece movement
+- Full legal move generation
+- Special rule support (castling, en passant, promotion)
+- Move highlighting & last‑move tracing
+- Multiple board themes
+- Sound effects
+- Clean object‑oriented architecture
 
 This project was developed as part of the HSC Software Engineering Major Project.
 
-🎯 Features
-Intuitive drag‑and‑drop interface
+# 🎯 Features
 
-Real‑time move highlighting
+- Intuitive drag‑and‑drop interface
+- Real‑time move highlighting
+- Hover and last‑move indicators
+- Accurate rule enforcement
+- Multiple colour themes
+- Move & capture sound effects
+- Modular, maintainable code structure
 
-Hover and last‑move indicators
-
-Accurate rule enforcement
-
-Multiple colour themes
-
-Move & capture sound effects
-
-Modular, maintainable code structure
-
-🧠 System Architecture
+# 🧠 System Architecture
 The engine follows a layered architecture:
 
-Code
 Player Input
+
      ↓
+     
 GUI (game.py)
+
      ↓
+     
 Game Controller
+
      ↓
+     
 Board Logic (board.py)
+
      ↓
+     
 Move Validator
+
      ↓
+     
 Piece / Square / Move Classes
+
      ↓
+     
 Updated Display
-📁 Project Structure
-Code
+
+
+# 📁 Project Structure
+
+ `
 ChessEngine/
 │
 ├── assets/
@@ -69,98 +73,83 @@ ChessEngine/
 ├── color.py
 ├── sound.py
 └── const.py
+`
 Each module has a single responsibility, making the project easy to extend.
 
-🛠️ Technologies Used
-Python 3.x – main programming language
+# 🛠️ Technologies Used
 
-Pygame – rendering, input, sound
+- Python 3.x – main programming language
+- Pygame – rendering, input, sound
+- VS Code – development environment
+- GitHub – version control
 
-VS Code – development environment
+# 🚀 Installation & Setup
 
-GitHub – version control
-
-🚀 Installation & Setup
 1. Clone the repository
-bash
-git clone https://github.com/your-username/chess-engine.git
-cd chess-engine
+
 2. Install dependencies
 bash
 pip install pygame
-3. Run the game
+
+4. Run the game
 bash
 python main.py
-🎮 Controls
-Action	Input
-Move piece	Drag with mouse
-Change theme	Press T
-Reset game	Press R
-Quit	Close window
+
+# 🎮 Controls
+
+- Action	          Input
+
+- Move piece	     Drag with mouse
+
+- Change theme	     Press T
+
+- Reset game	     Press R
+
+- Quit	          Close window
 
 
-📚 Code Highlights
-Object‑Oriented Design
-Piece subclasses: Pawn, Knight, Bishop, Rook, Queen, King
 
-Square class for board cells
+# 📚 Code Highlights
 
-Move class for move representation
+Object‑Oriented Design:
 
-Board class for rule enforcement
+- Piece subclasses: Pawn, Knight, Bishop, Rook, Queen, King
+- Square class for board cells
+- Move class for move representation
+- Board class for rule enforcement
+- Game class for rendering & interaction
+- Dragger class for drag‑and‑drop logic
+- Special Rules Implemented
+- Castling
+- En passant
+- Pawn promotion
+- Check detection
 
-Game class for rendering & interaction
-
-Dragger class for drag‑and‑drop logic
-
-Special Rules Implemented
-Castling
-
-En passant
-
-Pawn promotion
-
-Check detection
-
-🧪 Testing
+# 🧪 Testing
 The engine was tested for:
 
-Legal/illegal moves
+- Legal/illegal moves
+- Special rules
+- Edge cases (check, stalemate positions)
+- Drag‑and‑drop behaviour
+- Performance (FPS stability)
+- Theme visibility
 
-Special rules
+# 📈 Future Improvements
 
-Edge cases (check, stalemate positions)
-
-Drag‑and‑drop behaviour
-
-Performance (FPS stability)
-
-Theme visibility
-
-📈 Future Improvements
 AI opponent (minimax)
-
 PGN export
-
 Move history panel
-
 Timer for competitive play
-
 Online multiplayer
-
 Animations & sound variations
-
 Explore improvements:
-
 AI Opponent
-
 Move History
-
 PGN Export
 
-👤 Author
-Danny Trieu Nguyen  
-HSC Software Engineering Major Project
+# 👤 Author
+Danny Trieu Nguyen  - HSC Software Engineering Major Project
 
-📎 License
+# 📎 License
 This project is open‑source under the MIT License.
