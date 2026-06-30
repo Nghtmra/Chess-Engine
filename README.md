@@ -54,26 +54,42 @@ Updated Display
 
 # 📁 Project Structure
 
- `
 ChessEngine/
+
 │
+
 ├── assets/
+
 │   ├── images/
+
 │   └── sounds/
+
 │
+
 ├── board.py
+
 ├── piece.py
+
 ├── square.py
+
 ├── move.py
+
 ├── dragger.py
+
 ├── game.py
+
 ├── main.py
+
 ├── config.py
+
 ├── theme.py
+
 ├── color.py
+
 ├── sound.py
+
 └── const.py
-`
+
 Each module has a single responsibility, making the project easy to extend.
 
 # 🛠️ Technologies Used
