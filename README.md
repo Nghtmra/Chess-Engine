@@ -165,7 +165,4 @@ Move History
 PGN Export
 
 # 👤 Author
-Danny Trieu Nguyen  - HSC Software Engineering Major Project
-
-# 📎 License
-This project is open‑source under the MIT License.
+Danny Trieu Nguyen  - HSC Software Engineering Major Project, with help from Microsoft Copilot
